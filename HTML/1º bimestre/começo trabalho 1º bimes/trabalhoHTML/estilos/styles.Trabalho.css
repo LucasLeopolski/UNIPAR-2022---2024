@@ -1,0 +1,45 @@
+
+    table{
+        width: 800px;
+        background-color: azure;
+    }
+    .cor{
+        background-color: red;
+        text-align: center;
+    }
+    .imgg{
+        text-align: right;
+    }
+    .color1{
+        background-color: rgb(177, 173, 173);
+        color: white;
+        text-align: center;
+    }
+    .color2{
+        background-color: rgb(160, 158, 158);
+        color: white;
+        text-align: center;
+    }
+    .color3{
+        background-color: rgb(139, 136, 136);
+        color: white;
+        text-align: center;
+    }
+    .color4{
+        background-color: rgb(117, 117, 117);
+        color: white;
+        text-align: center;
+    }
+    .color5{
+        background-color: rgb(85, 83, 83);
+        color: white;
+        text-align: center;
+    }
+    .color6{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    a{
+        color: white;
+    }

@@ -1,0 +1,186 @@
+table{
+    border: 1px solid #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+tr{
+    display: inherit;
+}
+.borda{
+    border-bottom: solid #DDDDDD 1px;
+}
+.borda2px{
+    border-bottom: solid #CCCCCC 2px;
+    font-size: 18px;
+    text-align: center;
+    color: #1398BE;
+}
+.titulo{
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    border-bottom: solid #DDDDDD 1px;
+    width: 20PX;
+    height: 20px;
+}
+
+.fundoCinza{
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-bottom: solid #DDDDDD 1px;
+}
+.nomeTimes{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    border-bottom: solid #DDDDDD 1px;
+    width: 200px;
+    height: 20px;
+}
+.nomeTimesborda{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    border-bottom: solid #CCCCCC 2px;
+}
+.pontoTimes{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-bottom: solid #DDDDDD 1px;
+}
+.pontoTimesborda{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-bottom: solid #CCCCCC 2px;
+}
+.demaisColunas{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    border-bottom: solid #DDDDDD 1px;
+
+}
+.demaisColunasborda{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    border-bottom: solid #CCCCCC 2px;
+
+}
+.demaisColunasfundocinza{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-bottom: solid #DDDDDD 1px;
+}
+.demaisColunasfundozinzaborda{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-bottom-width: solid #CCCCCC 2px;
+}
+
+.tamanhoFonte{
+    font-size: 10px;
+    text-align: left;
+
+}
+.siglas{
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+    
+}
+.numerosVermelhos{
+    font-size: 18px;
+    text-align: center;
+    color: #C91B04;
+
+}
+.numeroscinza{
+    font-size: 18px;
+    text-align: center;
+    color:#CCCCCC;
+
+}
+.numeroscinzaBorda{
+    font-size: 18px;
+    text-align: center;
+    color: #CCCCCC;
+    border-bottom: #CCCCCC  solid 2px;
+
+}
+.numerosLaranja{
+    font-size: 18px;
+    text-align: center;
+    color: #DE9800;
+}
+.numerosAzuis{
+    font-size: 18px;
+    text-align: center;
+    color: #003366;
+}
+.classificacao{
+    text-align: left;
+}
+.taca{
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color: #003366;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left: 7px;
+    right: 4px;
+    top: 557px;
+    bottom: 0px;
+}
+.pre{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #1398BE;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left:128px;
+    right:4px;
+    top: 549px;
+    bottom: 0px;
+}
+.sul{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color:#DE9800;
+    border-width: 4px 4px 4px 4px;
+
+    position: relative;
+    left: 242px;
+    right: 4px;
+    top: 541px;
+    bottom: 0px;
+}
+.rebaixados{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #C91B04;
+    border-width: 4px 4px 4px 4px;
+
+    position:relative;
+    left: 336px;
+    right: 4px;
+    top: 533px;
+    bottom: 0px;
+}
