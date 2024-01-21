@@ -1,0 +1,43 @@
+table{
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.verdeEsc{
+    background-color: #008080;
+}
+
+.verdeCla{
+    background-color: #008000;
+}
+
+.chocolate{
+    background-color: #D2691E;
+}
+
+.vermeCla{
+    background-color: #FF0000;
+}
+.rosa{
+    background-color: #FF1493;
+}
+
+.roxo{
+    background-color: #8B008B;
+}
+
+.vermeEsc{
+    background-color: #8B0000 ;
+}
+
+.azul{
+    background-color: #00008B;
+}
+
+.gelo{
+    background-color: #1E90FF;
+}
+
+.cinza{
+    background-color: #696969;
+}

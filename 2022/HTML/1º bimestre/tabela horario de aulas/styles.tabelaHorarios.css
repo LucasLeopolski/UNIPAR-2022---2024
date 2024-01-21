@@ -1,0 +1,16 @@
+table{
+    text-align:center ;
+    border-bottom-left-radius : 0px;
+}
+
+.fundoCinza{
+    
+    background-color: gray;
+}
+
+
+
+.Borda{
+    border-style: none ;
+    background-color: white;
+}
