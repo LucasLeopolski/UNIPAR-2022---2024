@@ -1,0 +1,2 @@
+	*onCreate - onde eu crio o script de criação da tabela (é executado apenas uma vez - quando baixo o app); 
+	*onUpgrade - quando eu atualizo o aplicativo (coloco as novas tabelas), usado quando atualizo o app; 

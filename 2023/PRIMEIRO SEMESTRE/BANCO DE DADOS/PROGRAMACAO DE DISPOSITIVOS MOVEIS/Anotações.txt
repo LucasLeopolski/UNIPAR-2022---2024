@@ -1,0 +1,6 @@
+Criando Vetor: 
+	String[]vetAluno = new String[lisatAlunos.size()];
+	
+	* Está criando um vetor do tamnho da lista de alunos, se tiver um aluno vai ser um vetor de 1 espaço se tiver 100 alunos vai ser um vetor de 100 espaços; 
+
+vetor é limitado, precisa colocar o tamnho na hora da criação 

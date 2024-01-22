@@ -1,0 +1,48 @@
+Activity é uma atividade - é o código por tras do layout 
+
+XML é o código apresentado para o usuario há duas propiedades
+	* Views - todo componente do xml que a gente mostra para o usuário view fecho com </LinearLayout> 
+	* View group - é o componente de organização da tela (usado para organizar não é visivel não é apresentado para o usuário (LinearLayaut (todos liner layout eu tenho que definir a orientação (horizontal ou vertoical ) Orientation view group fecha com >; quando tem nomeComponenteLayout é um view group (LinearLayout)
+	  todo componente do xml tem duas propiedadas que são obrigatorias altura e largura )height width) coloco ou math parent (atribui valor conforme o view group pai (linear Layout - vai ficar da largura do linear 	  	  (tamanho a tela) ou wrap content (vai ficar do tamanho do conteudo do componente (duas letras fica um tamanho  para ficar responsivo  letras fica outro tamanho outra propiedade é o WEIGHT que controla pelo peso, se 	  tiver o mesmo peso fica no meio
+	
+	
+	* ID é colocado quando preciso manipular o componente refenciar ele no código no activity;  
+	* AutoCompletetextView: começa a digitar já aparece o conteudo não carrega todos os dados para exibir para o usuário (lista) os dois são componentes de lista, preciso passar uma lista pra ele
+	* Spinner: ele espera digitar tudo a palavra para retornar o resultado para o usuário; os dois são componentes de lista, preciso passar uma lista pra ele
+	* arrayAdapter: para cada elemento da lista ele cria uma lista. 
+
+OS DOIS TEM ESSA FORMULA : (aqui esta passando os dados da lista) 
+	ArrayAdapter adapter = new ArrayAdapter(
+			CadastroDisciplinaActivity.this, 
+			android.R.layout.simple_dropdown_item_line, vetorProf); 
+
+ACTIVITY
+
+	* Primeira coisa que tem que fazer: tem que pegar quais elementos que tem no XML, quais as views que viu usar na activity, crio as variaveis e importo o xml aqui pra dentro atravpes do
+ 	  idSelecionado findViewById(R.id.idSelecionado) - usado para carregar os componentes do XML 
+
+
+BUTTON
+	* Precisamos atribuir uma ação para ele: btSalvar.setOnclickListner(new View.OnclickListner(){ @Override public void onClick(view view) {salvarDisciplina()} chamando o médotodo } 	
+
+
+
+
+METODO ON CREATE - Serve para carregar os dados da Activity - 
+ONCLICK - Está atribuindo uma ação para o botão
+View (View view) - Passa para o xml o componente que vc esta clicando
+
+Todos os componentes do xml são VIEW; TODA VIEW PRECISA DE DUAS PROPIEDADES LARGURA E ALTURA 
+VIEW GROUPS - são componentes de organização (não são viziveis) Linear Layout SCROWVIEW E RADIUMGROUP (vertical e horizontal) 
+
+
+
+SP - Fontes e Textos
+DP - Todo o resto (Imagem; Tamanho componente) 
+PX - Pixel - não usar 
+
+
+Componentes de Listas (A diferença entre os dois é a modo de apresentar o dados na tela) 
+Spinner - Tem uma lista - gera um vetor para exibir os campos (Gera todos os itens da lista (todos os nomes de alunos)
+AltocompleTextView -(Gera uma lista também porém vai gerar a lista a partir dos dois primeiros caracter: Ex: Quero encontrar o nome Lucas - Digito: Lu aí o altocompleteTextView vai retornar apenas os nomes que comessam com Lu)
+RADIUM GROUP - Só checa se ele está checado (ischecked) 
