@@ -1,0 +1,43 @@
+							S.O.L.I.D
+
+
+S = PRINCIPIO DA RESPONSABILIDADE UNICA: Ou é professor ou é cordenador ( exemplo professor fernando - pode ter apenas uma função);
+Esse principio diz que uma classe deve ter apenas um motivo para mudar, ou seja, deve ter uma única responsabilidade;
+Uma classe deve pode ter város métodos, porém ela deve ter apenas uma responsabilidade própia. Ao criar uma classe para salvar notas
+fiscais por exemplo, ela não poderá ser usada para outra coisa. 
+Tem apenas uma responsabildade ( aqui um individuo só pode cozinhar e outro só pode servir - se o mesmo individuo fizer os dois está 
+errado); 
+
+Beneficios: 
+	*Facilita manutenção;
+	* Código limpo e de fácil entendimento;
+	* Facilidade de desenvolvimento de testes;
+	*Redução de acoplamento;
+	*Complexidade reduzida.
+
+
+O = PRINCIPIO ABERTO/FECHADO (OPEN/CLOSED PRINCIPLE): Se eu fizer o override eu posso utilizar o metodo da classe mãe - se precisar 
+modificar o método da classe mãe pode ter problemas, modificar o método principal garantindo que todas as dependências não terão probleas.
+Simples e direto  aberta para extenssão mas fechado para modificação, pode ter acesso o que uma classe possui mas não pode autera - lá, 
+exemplo encapsulamento;
+Enquanto o método assima diz que eu posso ter apenas uma responsabilidade aqui terá mais de uma ( aqui cozinhar e servir está correto) 
+
+L = PRINCIPIO DE SUBSTITUIÇÃO DE LISKOV (LISKO'S SUBSTITUTION PRINCIPLE): SUBSTITUA COM CUIDADO - sem impactar no usuário final
+
+I = PRINCIPIO DA SEGREGAÇÃO DA  INTERFACE (INTERFACE SEGREGATION PRINCIPLE): afirma que nenhum cliente deve ser forçado a depender de métodos que não utiliza.
+
+D = PRINCIPIO DA INVERSÃO DA INDEPENDÊNCIA (DEPENDENCY INVERSION PRINCIPLE): Módulos de baixo nível( são rotinas/ classse que não 
+tem dependência direta com o software mas são código fontes inportantes para manter a integração com o usuario) não devem depender 
+de módulos de alto nível 
+
+componente - tudo aquilo que define um serviço/produto final. 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+SOLID só é valido na refatoração do código ( quando eu vou melhorar o código). + 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+override sobrescrita de metodos 
