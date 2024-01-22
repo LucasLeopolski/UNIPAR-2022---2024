@@ -1,0 +1,224 @@
+O ciclo de vida de um projeto é o conjunto de fases pelas quais um projeto passa, desde sua concepção até sua conclusão.
+
+• Inicio do Projeto ou Concepção: Onde o projeto é identificado e definido.
+– Estabelecem os objetivos, os recursos necessários, as partes interessadas e as limitações do projeto.
+• Organização e Preparação ou Planejamento:
+Plano detalhado do projeto é criado.
+– definição de tarefas, cronogramas, orçamento, recursos e riscos do projeto. É nesta fase que o plano é aprovado e o projeto é lançado.
+• Execução: As tarefas planejadas são executadas.
+– A equipe do projeto trabalha para realizar as atividades, gerenciar os recursos e alcançar as metas do projeto. Aqui o produto ou serviço é produzido.
+– Monitoramento e controle: Garantir que esteja dentro do escopo, prazo e orçamento planejados.
+• Encerramento: concluído e entregue ao cliente.
+– revisão do projeto, documentação e feedback do cliente.
+– O objetivo é garantir que o projeto tenha sido concluído de acordo com o plano e que as lições aprendidas sejam registradas para futuros projetos
+
+• A gestão efetiva do ciclo de vida do projeto é essencial para garantir que o projeto atinja seus objetivos dentro do prazo, orçamento e
+qualidade previstos.
+
+
+Metodologias ágeis para desenvolvimento de projetos
+
+Scrum
+• divide o projeto em sprints (ciclos de trabalho)
+- uma a quatro semanas.
+• listas de objetivos e definir as sprints
+– a equipe desenvolve um conjunto de funcionalidades e realiza reuniões diárias para discutir o progresso e possíveis obstáculos.
+• formado basicamente por papéis, cerimônias e artefatos – conceito importante que é o de time-boxes
+(eventos com duração fixa) (SCHWABER; SUTHERLAND, 2009).
+Papéis:
+– Product Owner (PO)
+– Scrum Master (SM)
+– Time (TS)
+
+
+Kanban
+• Metodologia de gestão visual que se baseia no controle de fluxo de trabalho por meio de cartões ou post-its, representando tarefas ou
+itens de trabalho.
+• Foco no aumento de produtividade e na otimização dos processos
+• Originário do sistema Toyota de produção
+
+04 PRINCIPIOS BÁSICS DO KANBAN
+
+	* Comece com o que você faz agora
+	* Aceitar a busca por uma kmudança evolutiva e incremental 
+	* Respeitar processos, as funções e responsabilidades atuais
+	* Encorajar atos ce lideranã 
+
+
+Diferença entre Kanban e Scrum
+• Kanban é um método, o Scrum é considerado mais como um framework.
+• Kanban é um processo de melhoria contínua, limita o WIP - Work In Progress (Trabalho em Progresso) conquistando mais eficiência.
+• Scrum é um framework que busca fracionar o trabalho em intervalos predefinidos (sprints). Tem como objetivo agilizar as execuções ao
+máximo, centralizando feedbacks e aumentando a quantidade de entregas e implementações.
+
+“Scrumban”
+Mistura dos dois, em que na filosofia Scrum é utilizado o quadro Kanban para priorizar atividades.
+
+Unir... PQ?
+• Processos com base em métricas claras e eficazes;
+• Redução do lead time;
+• Facilitação do monitoramento e da melhoria contínua;
+• Possibilidade de validações dos sprints;
+• Acompanhamento das tarefas e suas etapas de desenvolvimento.
+
+• Lean: é uma metodologia ágil que se concentra em eliminar o desperdício e otimizar os processos. É baseado nos
+princípios do sistema Toyota de produção, que enfatiza a melhoria contínua e o trabalho em equipe.
+• XP (Extreme Programming): é uma metodologia ágil que enfatiza a comunicação constante entre a equipe e o cliente, o teste
+automatizado e o desenvolvimentoincremental.
+• FDD (Feature-Driven Development): é uma metodologia ágil que se concentra na entrega de funcionalidades específicas em um período
+de tempo definido. Cada funcionalidade é dividida em tarefas menores e a equipe trabalha em cada uma delas em paralelo.
+• DSDM (Dynamic Systems Development Method): é uma metodologia ágil que enfatiza a entrega rápida e a colaboração entre a
+equipe e o cliente. Ela se concentra em entregar o máximo de valor ao cliente no menor tempo possível.
+
+
+GERENSACIAMENTO DAS COMUNICAÇÕES 
+Abrangência da comunicação projetos
+• Interna ao projeto (partes interessadas).
+• Organizacional (gestão de mudanças).
+• Pública (mídia e público geral, fornecedores).
+
+Comunicação eficaz contempla
+• Formalização da Comunicação.
+• Mensagem clara e focada no objetivo do projeto.
+• Certificar-se de que a mensagem foi recebida e entendida.
+• Repetir a mensagem se necessário.
+• Utilizar uma linguagem adequada ao receptor para evitar barreiras (palavras técnicas, gírias, valores, crenças).
+• Postura adequada e respeitosa nas reuniões. Falar e ouvir.
+• Saber ouvir. Ter equilíbrio.
+• Emissor e receptor motivados e interessados no assunto.
+
+Risco
+“Evento ou condição incerta que, se ocorrer, terá um efeito positivo ou negativo sobre pelo menos um objetivo do projeto” (PMBOK, 2004)
+
+Tipos de Riscos
+• Riscos de projeto
+– ameaçam o plano do projeto, podendo atrasar o cronograma e aumentar custos.
+• Riscos técnicos
+– Ameaçam o pontualidade e a qualidade do software, tornando a implementação impossível.
+– Problemas no desenvolvimento do software (implementação, interface, manutenção), novas tecnologias, tecnologia não adequada a solução...
+• Riscos do negócio
+– ameaçam a viabilidade do software a ser criado Exemplos:
+– construir um excelente produto que ninguém realmente quer
+– perder o apoio da alta administração devido à mudança de foco ou mudança de pessoas (risco administrativo)
+– perder o compromisso orçamentário
+
+Gerenciamento dos Riscos
+• Planejamento de riscos:
+– Definir quais áreas deverão ser objeto de análise de riscos (qualidade, custos, tempo, etc).
+– Definir o líder, o apoio e os membros da equipe de gerenciamento de riscos para cada tipo de atividade
+do plano de gerenciamento de riscos e explicar suas responsabilidades.
+– Definir se serão utilizadas reservas de contingência e gerenciamento para riscos.
+– Definir com que freqüência o plano de riscos será analisado e o procedimento para tratar os riscos.
+• Técnicas para identificar riscos:
+– Brainstorming
+• Um facilitador coordena a equipe de projeto e especialistas de áreas distintas.
+– Delphi
+• Obter o consenso dos especialistas em riscos de forma anônima. Respondem a um questionário sobre riscos
+importantes do projeto. As respostas são resumidas e redistribuídas aos especialistas para comentários adicionais.
+– Entrevistas
+• entrevistar participantes do projeto, partes interessadas e especialistas no assunto.
+– Análise da causa raiz
+• Descobrir as causas que levaram ao problema, porquês.
+
+Estratégia para riscos negativos
+(ameaças):
+• Prevenir:
+– A equipe de projeto age para eliminar a ameaça de risco ou proteger o projeto contra seu impacto. Um problema é
+resolvido somente se sua causa raiz for atacada.
+• Transferir:
+– A equipe de projeto transfere a responsabilidade de resolver a ameaça para terceiros juntamente com a
+responsabilidade pela sua resposta.
+• Mitigar: A equipe de projeto age para reduzir a probabilidade de ocorrência ou impacto do risco.
+• Aceitar:
+– A equipe do projeto decide reconhecer a existência do risco e nada faz para prevenir e somente age se o risco ocorrer.
+Top 10 Riscos (Boehm)
+• Imprevistos de pessoal.
+• Cronogramas e orçamentos não realísticos.
+• Desenvolvimento das funções erradas.
+• Desenvolvimento da interface com o usuário errada.
+• Requisitos sofisticados, sem necessidade.
+• Fluxo contínuo de mudanças nos requisitos.
+• Imprevistos em serviços terceirizados.
+• Imprevistos em componentes terceirizados.
+• Imprevistos de desempenho em tempo real.
+• Capacidade de computação excedida.
+
+
+Papel do GP no gerenciamento de riscos
+• Analisar os aspectos inerentes aos riscos, ameaças e deficiências, para aumentar a segurança durante as decisões em todo o ciclo
+de vida do projeto.
+• Orientação
+• Educação
+• Administração
+Algumas ferramentas de gerenciamento de riscos
+• Swot
+• 5 Pqs
+• Diagrama de causa e efeito
+• matriz de risco
+
+Matriz Swot
+• Criada pelo professor Albert Humphrey, de Stanford, na década de 60
+• Elaboração de uma análise que mapeia 4 categorias de atributos do projeto:
+– Forças (atributos únicos do negócio);
+– Fraquezas (o que a empresa não faz bem);
+– Oportunidades (O que não foi explorado ainda pelos concorrentes);
+– Ameaças (O que pode prejudicar o desempenho do negócio)
+
+Riscos de projeto:
+• Escopo mal definido ou requisitos ambíguos.
+– Impacto: Aumento de retrabalho, atrasos no
+cronograma e insatisfação do cliente.
+– Probabilidade: Moderada a alta, especialmente se os
+requisitos não forem adequadamente discutidos e
+documentados.
+• Falta de recursos adequados, como
+desenvolvedores, designers ou especialistas em
+usabilidade.
+– Impacto: Atrasos no desenvolvimento, redução da
+qualidade do aplicativo e insatisfação do cliente.
+– Probabilidade: Moderada, dependendo da
+disponibilidade de recursos qualificados e da
+capacidade de planejamento da equipe.
+• Riscos técnicos:
+• Problemas de compatibilidade entre diferentes
+dispositivos móveis ou sistemas operacionais.
+– Impacto: Funcionalidades limitadas ou não funcionais em
+determinados dispositivos, reduzindo a usabilidade e a
+satisfação do usuário.
+– Probabilidade: Moderada a alta, considerando a ampla
+variedade de dispositivos e sistemas operacionais no mercado.
+• Dificuldades técnicas com recursos complexos, como
+integração com redes sociais ou recursos de
+geolocalização.
+– Impacto: Atrasos no desenvolvimento, problemas de
+desempenho e experiência do usuário comprometida.
+– Probabilidade: Moderada, especialmente se a equipe de
+desenvolvimento não tiver experiência prévia com esses
+recursos.
+
+
+• Riscos de negócio:
+• Mudanças nas preferências dos usuários ou demanda de mercado.
+– Impacto: Baixa adoção do aplicativo, redução de receita e dificuldades em alcançar os objetivos de negócio.
+– Probabilidade: Moderada, especialmente em mercados competitivos ou em constante evolução.
+• Intensa concorrência com outros aplicativos similares já estabelecidos.
+– Impacto: Dificuldade em conquistar e reter usuários, redução da participação de mercado.
+– Probabilidade: Moderada a alta, dependendo do setor e da atratividade do mercado.
+• Risco de escopo mal definido ou requisitos ambíguos:
+– Realizar uma análise detalhada dos requisitos antes de iniciar o desenvolvimento, envolvendo os stakeholders
+relevantes para garantir um entendimento claro do escopo e documentar os requisitos de forma precisa.
+• Risco de problemas de compatibilidade entre dispositivos
+– testes em uma variedade de dispositivos móveis e sistemas operacionais populares, identificando possíveis
+problemas de compatibilidade e ajustando o aplicativo conforme necessário.
+• Risco de mudanças nas preferências dos usuários ou
+demanda de mercado
+– pesquisas de mercado, analisar tendências e preferências dos usuários, e manter o aplicativo atualizado com novas
+funcionalidades e melhorias contínuas para atender às necessidades em constante mudança dos usuários.
+
+
+Gráfico de Gantt
+• Ferramenta visual de acompanhamento e de gerenciamento de cronograma de projetos.
+• Tarefas x Tempo
+• Organização
+• Monitoramento
+• Controle

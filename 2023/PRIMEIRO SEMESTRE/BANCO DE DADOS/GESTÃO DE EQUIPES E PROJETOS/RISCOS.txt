@@ -1,0 +1,15 @@
+RISCO 
+
+Evento ou condição incerta que se ocorrer terá efeito positivo ou negativo soble pelo menos um objeto. 
+
+Riscos dTEcnicos 
+
+Rico de negócio - ameaçam viabilidade do software a ser criado  ex; construir um excelente produto que ninguém quer 
+
+
+GERENCIAMENTO DOS RISCOS 
+
+Planejamento de riscos; 
+
+-Definir areas que deverao ser objetos de analise de riscos 
+-definio o líder
