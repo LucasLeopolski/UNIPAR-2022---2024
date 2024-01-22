@@ -1,0 +1,8 @@
+winget upgrade - todos os programas que tem atualização 
+
+
+
+winget.net 
+
+
+winget uphgrade --all (vai atualizar tudo) 

@@ -1,0 +1,25 @@
+0: 15::1:12:1213 -> Endereço comprimido 
+
+0000:0015:0000:0000:0000:0001:0012:1213   -> Endereço Original 
+
+
+DHCP - Serviço de entrega de endereços IPs (automático) (o compuador vai receber o indereço ip automatico);
+
+
+DNS - Serviços de nomes e dominíos - converte um endereço em IP
+
+
+
+
+Trabalho: Etapa 3 (Passo 1,2,3 individual) 
+
+
+3.2  Pra usar IPv6 - Preciso ter endereços (Pesquisar como conseguir esses endereços) ( descrever o que precisa fazer para a conseguir a implantação do IPv6)
+
+
+Passo 3 - Grupo: Fazer a estrutura no packet tracer 
+
+Passo 5.1 - Tem na internet (baixar)
+
+Passo 5.2 - Definir se a senha tem caracter maiusculo / minusculo (quantos caracterer) 
+

@@ -1,0 +1,13 @@
+Multiplicidade (mínimo e máximo) 
+	
+	0..1 - No mínimo 0 e máximo 1 (Sem Obrigatoriedade)
+	1..1 - Um e somente Um (Obrigatoriedade (um))
+	0..* - No mínimo 0 e máximo muitos (Muitos)
+	1..* - No mínimo 1 e máximo muitos (Um ou muitos)
+	0..1 - No mínimo 0 e máximo 1 (Sem Obrigatoriedade)
+	2..7 - No mínimo 2 e máximo 7 instÂncias se relacionam 
+
+	* Cardianalidade possui conceito diferente Cardianalidade;
+	* Não é obrigatório colocar no diagrama de classes;
+
+

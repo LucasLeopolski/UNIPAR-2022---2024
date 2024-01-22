@@ -1,0 +1,30 @@
+Arpa net foi a primeira rede de computadores 
+
+Modelo OZI - 07 camadas: quais são e a sequência dealas
+
+Elementos de uma rede, dispositivos 
+
+Meios guiados e meios não guiados CTZ
+
+Explicar uma regra e um protocolo 
+
+Classificação de uma rede (saber o que é cada uma (LAN PAN WAN MAN) - rede pessoal Blothoo (não vai cobrar as medidas da rede) 
+
+MODELO CLIENTE SERVIDOR - 
+
+
+As redes são subdivididas em camdas (lembrar como estão divididas as estruturas de camadas) 
+
+
+MODELO DE REFENCIA OSI 
+
+
+teoria da comunicação NÂO VAI CAIR 
+
+
+cabo STP - cabo com isolamento e blindagem
+
+
+padão não vai pedir expecificamento 
+
+Fibra - caracteristicas - tipo de fibra 
