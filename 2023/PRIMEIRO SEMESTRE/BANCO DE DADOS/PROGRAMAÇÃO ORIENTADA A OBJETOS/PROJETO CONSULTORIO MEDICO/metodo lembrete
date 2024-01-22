@@ -1,0 +1,29 @@
+ System.out.println("\nDeseja habilitar lembrete? (S/N): ");
+        String opcao = sc.nextLine();
+ /*if (opcao == "S") {
+            lembrete = opcao.equalsIgnoreCase("S");
+            System.out.println("Lembrete adicionado!");
+        } else if (opcao == "N") {
+            System.out.println("Você optou por não receber um lembrete. ");
+
+        } else {
+
+            System.out.println("Escolha apenas entre S (sim) e N (não)");
+        }*/
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*public void lembrarHorario() {
+        if (lembrete) {
+            System.out.println("Lembrete: você tem uma consulta marcada para o dia " + dia + " às " + hora);
+        } else {
+            System.out.println("Lembrete não está habilitado para essa consulta.");
+        }
+    }*/
