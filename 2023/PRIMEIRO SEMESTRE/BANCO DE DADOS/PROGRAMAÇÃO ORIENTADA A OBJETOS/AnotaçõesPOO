@@ -1,0 +1,104 @@
+POO MEU ENTENDIMENTO E ANOTAÇÕES: 
+
+     * Utiliza classe e objetos como elementos centrais para representar e processar dados nos 		programas.  
+     * Os conseitos de POO surgiram ao final da decade de 1960- com a linguagem Sumula-68;
+     * Forama amadurecidos estes conceitos durante a decade de 1970, pela linguagem Smalltalk;
+     * Um dos principais pequisadores que introduziu os conceitos de POO, foi ALAN KAY - um 	dos criadores da linguagem Smalltalk; 
+     * Alan propos a ideia que poderiamos construir um programa utilizando conceitos de 		abstração do mundo real, como objetos, para a troca de mensagens; 
+     
+ +++ OS QUATRO PILARES DE POO:+++
+ 
+     * Encapsulamento: basicamente define quem poderá acessar aquele determinado atributo, é 	controlada pelos metodos get e set, e os atributos devem ser mudaddos para private; 
+     
+     * Herança: Acontece quando duas classes são próximas, têm características mútuas mas não 	são iguais e existe uma especificação de uma delas. Portanto, em vez de escrever todo o 	código novamente é possível poupar algum tempo e dizer que uma classe herda da outra e 	depois basta escrever o código para a especificação dos pontos necessários da classe 	derivada.
+     
+     * Composição: é um mecanismo de reaproveitamento (reutilização) de classes. 		    Reaproveitamento ou reutilização de classes significa que você pode usar uma ou 	   várias classes para compor outra classe.
+     
+     * Poliformismo: é um mecanismo por meio do qual selecionamos as funcionalidades 		utilizadas de forma dinâmica por um programa no decorrer de sua execução. Com 			o Polimorfismo, os mesmos atributos e objetos podem ser utilizados em objetos 			distintos, porém, com implementações lógicas diferentes.
+     
+     
++++ OBJETOS +++
+
+	* Em POO objetos são utilizados para representar entidades do mundo real ou 		    computacional. 
+	* Os objetos possuem CARACTEÍSTICAS(atributos) E FINALIDADES (métodos); 
+
+   --- Atributos---(dados) 
+   		* São características ex, o objeto Pessoa possuiu RG, nome, data de         			nascimento, etc. O objeto carro possuiu os atributos modelo, cor, quantidade 		de portas etc. 
+   		
+   --- Métodos--- (operações) 
+   		* São os comportamentos dos objetos, ex: Um objeto Pessoa pode andar, comer, 		  correr, ou dirigir carros. Um objeto Carro pode ligar, desligar, acelerar e 			  frear;
+   	
+   --- Classes--- 
+   		*A modelagem e programação de um conjunto de objetos que possuem 			características (atributos) e comportamentos (métodos) comuns é feita na POO 		usando o conceito de Classe.
+   		
+   		* Cada classe funciona no fundo como um molde para a criação de um dado 			objeto. 
+   		* Os objetos são vistos como representações concretas (instâncias) das classes.
+   		
+   		*A classe define que objetos devem ter tipo, cor, placa e número de portas, 			mas não indica explicitamente quais são seus valores.
+   		
+   	++--** CRIANDO UMA CLASSE **--++  - Será chamada de pessoa e de carro; 
+   	
+   	public class Pessoa{                            public class Carro{
+   		String nome; 					  String modelo; 
+   		String corCabelo;				  String cor;
+   		String biotipo  				  String placa;
+   		int idade; 					  int numPortas; 
+   	}						   }
+   		
+   	++--** CRIANDO UM OBJETO **--++
+   	
+   		* Vamos criar um objeto para as classes criadas a cima;
+   		* Na programação chamamos isso de INSTANCIAÇÃO ou seja, criamos uma instância 			da classe pessoa e uma intância da classe carro; 
+   		
+   		Pessoa p1 = new Pessoa(); // Pessoa é o nome da minha classe, p1 declara uma
+   		variavél do tipo Pessoa, uma referencia ao objeto Pessoa; 
+   		
+   		DEFININDO OS VALORES:Para definir os valores utiliza o metodo set sendo assim:
+   		nomeObjIntanciado.setAtributo(valor); Ou seja, para a variavél pessoa: 
+   		
+   		p1.setNome("Joãozinho");
+   		p1.setCorCabelo("preto");
+   		p1.setBiotipo("Ectomorfo);
+   		p1.setIdade(17);
+   		
+   		Exibindo cada atributo com seu método: 
+   		System.out.println(--Pessoa--);
+   		System.ont.println("Nome: "+p1.getCorNome());
+   		System.ont.println("Biotipo: : "+p1.getBiotipo());
+   		System.ont.println("Cor do Cabelo: "+p1.getCorCabelo());
+   		System.ont.println("Idade: "+p1.getIdade());
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
+   		
