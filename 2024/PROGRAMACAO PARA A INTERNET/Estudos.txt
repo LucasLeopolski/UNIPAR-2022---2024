@@ -1,0 +1,26 @@
+JVM - É a virtual machine. 
+JRE - Java Runtime Environment, ambiente de execução em java, foemado pela JVM e bibliotecas.
+JDK - Java Development Kit É formado pela JRE somado as ferraementas como o compilador (indicado para desenvolvedores) 
+
+
+	* A função do pacote repository é fornecer uma camada de abstração entre a camada de acesso a dados (normalmente o banco de dados) e a camada de serviço ou de negócios da aplicação. Essa camada é responsável por fornecer métodos de acesso aos dados, como a inserção, consulta, atualização e exclusão de registros no banco de dados.
+
+	* 
+
+
+
+
+Backend chega até o postman
+
+controller vai bater no controller (controller recebe e envia os nossos dados, geralmente em Json)  -- exibição da rota (endpoint) a url que coloca no postmans
+
+no pom defino as dependencias 
+
+
+Regras de negócio ocorrem no pacote service 
+
+repository é camade de comunicação com o Banco de Dados (posso realizar consultas aqui) -  é a mesma coisa que o DAO 
+
+
+
+POSTMANS - é uma interface usada para inseri dados (aqui não pereciso desenvolver o frontend para testar o backend) 
