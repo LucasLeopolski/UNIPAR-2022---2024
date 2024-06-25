@@ -1,0 +1,10 @@
+1) C - O atributo action da tag form deve conter o valor "/login". 
+
+5) (V)  i.  No Spring a utilização da inversão de controle é facilitada graças a injeção de dependência 
+   (V)	ii. @Autowired é a notação utilizada  em spring quando desejamos trabalhar com injeção de dependência por campo;
+   (V)Spring boot é um dos integrantes do framework do Spring. Tem foco na missão de facilitar o processo de configutração das aplicações. Essa facilitação ocorre graças ao conceitop de convenção sobre a configuração. 
+
+
+7) D) Swagger 
+
+9) B - 
