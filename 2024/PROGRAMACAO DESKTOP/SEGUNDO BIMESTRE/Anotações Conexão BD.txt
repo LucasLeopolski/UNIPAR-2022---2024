@@ -1,0 +1,148 @@
++ primeiro cria a base de dados -> postgres (pgadmin)
++ inicia o netbeans (criar o projeto) 
++
+
+
+--------------------------------------------------------------------------------
+
+
+Java não faz diretamente a conexão com o postgres precisa de umas bibliotecas 
+pegar no maven rposuitory : https://mvnrepository.com/   -> biblioteca : https://mvnrepository.com/artifact/org.postgresql/postgresql/42.7.3
+
+
+copia o maven "o código" >> vai no netbeans >> seleciona o projeto >> project files >> cria a dependency dentro do pom >> vai ficar assim:  projeto UNIPAR DIGITAL
+
+	 </properties>
+    <dependencies>
+        <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.7.3</version>  
+        </dependency>
+    </dependencies>
+</project>
+
+
+Aqui foi instalado as dependencias do drive do postgres para a nossa base (java comunicar com o postgres) 
+
+
+
+Agora vamos criar a conexão com o banco de dados >> botão direito sobre Source Packages >>  new java package >> nome do pacote >> sobre o pacote criado >> bt direito new java class >>
+
+Agora preciso conectar com o banco (tenho que saber onde ele esta) 
+
+Na class criada crio as constantes : 
+	private static final String DRIVER = "org.postgres.Driver";
+    private static final String URL = 	"jdbc:postgres://localhost:5432/programacaoDesktop"; //endereço da base de dados  -- 5432 é a porta
+
+
+-----------------------
+Dia 08/05 - Colocando CRUD
+
+	* Para cada tabela precisa um dao. Cadas tabela é composta de uma classe e um dao 
+	* Foi criado um pacote chamado dao e dentro foi criado a classe GenericDao. 
+	* Dentro da classe GenericDao foi adicionado o abstract no nome da classe e também o Object (esse object pode ser qualquer nome), ficou: "public abstract class GenericDao<Objeto>{
+	* Foi adc uma variavél publica chamada Connection que vai .... o objeto;
+	* Foi criado o construtor GenericDao
+	* Foi construido os métodos que serão implementados posteriormente:
+
+		protected abstract Objeto construirObjeto(ResultSet rs); // esse 		método retorna do BC (apartir dele que vou construir meu objeto)  
+
+
+		public abstract boolean salvar(Objeto obj); // vai salvar o 		registro no banco 
+
+		
+		public abstract boolean atualizar(Objeto obj); // vai atualizar o 		registroi no banco 
+
+		
+		public ArrayList<Objeto>  retornaLista(String sql){//retorna dados 
+    
+    		PreparedStatement ps;
+    		ResultSet rs;
+    		ArrayList<Objeto>lista = new ArrayList<>();
+
+		return lista;
+    
+			}
+		}
+
+
+
+
+---------------
+
+Pacote model - 
+
+	* Após criar o dao foi criado o pacote e a classe Aluno (no model) 
+	* Foi criado a tabela Aluno na Base de dados 
+
+-------------------
+Dia 15/05 
+
+Tela para cadastrar aluno: 
+
+	* Novo Pacote: view >> dentro do pacote foi criado um jFrame chamado "ViewPrincipal" e também criado o frame "ViewCadastrAluno";
+
+
+
+CENTRALIZAR: HorizontalAlignment
+para data: adiciono um Formated Filter e nas propiedades no campo formatterFactory coloco como date
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+for each - tem a lista e faz o retorno da  lista (faz um cast para o objeto da Lista)
+
+COMANDO PARA RETORNAR DADOS DA TABELA:
+SELECT * FROM public."Aluno";
+
+localhost é na minha maquina
+
+para saber a porta e o usuario do postgres : bt direito sobre PostgresSQL 16 - properts - Connectio 
+
+protected: somente a classe que eu o adicionei ou a classe que estender ele vão ter acesso a ele. 
+
+
+CRUD: Criate, Atualizar, Salvar Deletar
+
+
+set serve para imputar uma informação no campo  (adicionar dados no nosso obj)
+get serve para retornar dados 
+
+
+tfRaAluno.setEditable(false); // impossibilitando editar o RA
+
+listner = leitor (alguem que esta lendo o método que esta sendo executado)
+
+
+
+--------------------------------------------------------------------------------
+
+Cada linha que eu selecionar vai implementar esse método: 
+ tbAlunos.getSelectionModel().addListSelectionListener(new ListSelectionListener(){
+                 @Override
+                 public void valueChanged(ListSelectionEvent e){
+                 } 
+
+
+------------------------
+
+
+PROVA
+
+
+Não pode ter mais de uma transação aberta para o mesmo usuário; 
+
+ResultSet é o retorno dos dados do Banco de Dados. 
+
+
+
+
+
