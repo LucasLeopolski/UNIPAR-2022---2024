@@ -1,0 +1,47 @@
+1. Qual é a principal vantagem de utilizar métricas de código-fonte na definição de padrões de qualidade para software?
+
+Garantir a consistência do código.
+
+
+2. Qual é o objetivo de utilizar ferramentas de integração contínua para coletar e analisar métricas de código-fonte?
+
+Identificar problemas no código em estágios iniciais do desenvolvimento.
+Monitorar a evolução da qualidade do código ao longo do tempo.
+Automatizar o processo de revisão de código.
+
+
+3. Qual das seguintes afirmações sobre métricas de código-fonte está INCORRETA?
+
+As métricas de código-fonte devem ser usadas como único indicador da qualidade do software.
+
+4. Qual é a principal vantagem de utilizar métricas de código-fonte para monitorar a evolução da qualidade do software ao longo do tempo?
+
+Detectar tendências na qualidade do código
+
+
+5. Qual das seguintes afirmações sobre métricas de código-fonte está INCORRETA?
+
+As métricas de código-fonte são uma forma de medir a inteligência do programador que escreveu o código.
+
+6. Qual das alternativas a seguir NÃO é considerada uma vantagem da utilização de métricas de código-fonte no desenvolvimento de software?
+
+Aumentar a produtividade dos desenvolvedores, automatizando tarefas repetitivas de análise de código.
+
+7. Em qual das seguintes situações a utilização de métricas de código-fonte pode ser mais benéfica?  
+
+Em um projeto de software de grande escala, com muitos desenvolvedores e um código complexo.
+
+
+8. Quais os principais desafios na modernização de sistemas legados?  
+
+Os principais desafios na modernização de sistemas legados incluem complexidade tecnológica, custos, interoperabilidade, segurança, manutenção, migração de dados, resistência organizacional e o tempo e esforço necessários para o processo.
+
+
+9. Como as métricas de código-fonte podem auxiliar na refatoração de código?  
+
+As métricas de código-fonte ajudam na refatoração ao identificar áreas problemáticas, como código duplicado, complexidade excessiva, funções longas e baixa cobertura de testes. Elas orientam os esforços de melhoria, priorizando áreas que trarão maior impacto na qualidade e manutenibilidade do código.
+
+
+10. Quais os benefícios da aplicação de métricas de código-fonte em projetos de software?  
+
+A aplicação de métricas de código-fonte em projetos de software oferece benefícios como melhoria da qualidade do código, detecção precoce de problemas, aumento da manutenibilidade, apoio à tomada de decisões, aumento da produtividade, melhoria da eficiência e desempenho, e padronização do código. Essas métricas ajudam a orientar as decisões de desenvolvimento e refatoração, resultando em um software mais confiável e fácil de manter.

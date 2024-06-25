@@ -1,0 +1,52 @@
+1. O que é cobertura de teste?
+
+A porcentagem de código, funcionalidades ou requisitos exercidos durante os testes.
+
+
+2. Qual a finalidade da métrica de eficiência de teste?
+Avaliar a produtividade da equipe de teste.
+
+
+3. Como é calculado o índice de defeitos críticos?
+Dividindo o número de defeitos críticos pelo número total de defeitos
+
+
+4. Qual é o propósito do tempo médio para resolução de defeitos?
+Determinar a eficiência da equipe de teste na resolução de defeitos.
+
+
+5. O que significa uma alta taxa de cobertura de testes automatizados?
+Uma alta taxa de cobertura de testes
+automatizados geralmente está associada a uma
+maior eficiência e consistência nos testes.
+
+
+
+Suponha que você é um testador em uma equipe de desenvolvimento de software para uma aplicação de comércio eletrônico. Recentemente, sua equipe lançou uma nova atualização para o sistema de pagamento online da aplicação. Após a atualização, a equipe de teste foi encarregada de realizar testes abrangentes para garantir a qualidade do sistema.
+
+A. Que tipos de testes você conduziria para garantir a qualidade do sistema de pagamento online?
+
+- Primeiramente testaria se realmente esta funcionando a parte de pagamento (tentando realizar um pagamento). 
+- Verificaria se as formas de pagamento disponibilizadas pelo sistema estão cumprindo seu papel (PIX, Boleto, Cartão Crédito/Débito). 
+
+
+B. Como você aplicaria a métrica de cobertura de teste nesse cenário? Quais aspectos específicos do sistema você consideraria cobrir?
+
+Para aplicar a métrica de cobertura de teste no sistema de pagamento online, é essencial abordar aspectos como funcionalidades principais, fluxos de pagamento, segurança, compatibilidade, integração com sistemas externos, manipulação de erros, desempenho e escalabilidade, além de realizar testes de regressão. Priorizar a cobertura desses aspectos garantirá uma avaliação abrangente da eficácia do teste no sistema de pagamento.
+
+
+C. Descreva como você mediria a eficiência de teste durante o processo de testes do sistema de pagamento online.
+
+Para medir a eficiência do teste no sistema de pagamento online, seria necessário monitorar a cobertura de teste, a taxa de defeitos encontrados, o tempo de resolução de defeitos, o tempo de execução de teste, a proporção de testes automatizados, o feedback da equipe e a satisfação do cliente. Essas métricas oferecem uma visão abrangente do desempenho do processo de teste, ajudando a identificar áreas de melhoria e garantir a qualidade do sistema entregue aos usuários.
+
+
+D. Supondo que você encontrou vários defeitos durante os testes, como você priorizaria a resolução desses defeitos? Que critérios você usaria?
+
+Primeiramente priozaria os defeitos que não irão depender de outras coisas. 
+
+
+E. Explique como a automação dos testes pode contribuir para a eficiência e qualidade dos testes do sistema de pagamento online.
+
+
+A automação dos testes no sistema de pagamento online melhora a eficiência e qualidade dos testes através da execução rápida e repetível de testes abrangentes, detecção precoce de bugs, redução de erros humanos, reutilização de casos de teste, eficiência nos testes de regressão e aumento da confiabilidade do sistema.
+

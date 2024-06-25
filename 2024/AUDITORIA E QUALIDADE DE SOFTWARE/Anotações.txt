@@ -1,0 +1,42 @@
+Aula dia 05/03/2024
+
+Auditoria de Sistemas: Engloba o exame das operações, processos, sistemas e responsabiloidades gerenciais de uma determinada entidade, com o intuito de verificar sua sua conformidade com certos objetos e politicas institucionasis, orçamentos, regras, normas e padrões. 
+
+	--> REVISA E AVALIA CONTROLES INTERNOS: 
+		* Proteger os ativos da organização;		
+		* Manter a integridade e autenticidade dos dados;
+		* Atingir de forma eficaz e eficiente os objetivos da organização.
+
+	--> ENFOQUE EM: Programas - Front End - Back End.
+
+
+	--> Entrada
+	--> Processamento
+	--> Saída
+
+* Produtos gerados após auditoria: 
+	* Relatório de problemas;
+	* Fraquesas de fluxo interno;
+	* Certificado de controle interno;
+	* Relatório de redução de custos;
+	* Manual de auditoria do sistema auditado.
+
+Os relatórios dever ser claros, clareza também nas recomendações e nas soluções. 
+
+Explicação coerente;
+
+Obediencia as políticas internas da empresa; 
+
+
+
+----------------------------------------------------------------------------------------------
+
+* TÉCNICAS DE AUDITORIA: 
+	* Simulação Paralela;
+	* Análise de dados;
+	* Comparação de dados;
+	* Confirmação de dados;
+
+SIMULAÇÃO PARALELA: Envolve o uso de um software que, comprovadamente, atenda a todas as lógicas necessárias para o teste, simulando as funcionalidades de programa em produção. Faz-se o processamento das transações e/ou dados nos dois programas e compara-se os resultados. É possível utilizar a técnica para rotinas que apresentam resultados recorrentes que são incoerentes. Neste processo, o auditor desenvolve o próprio programa para fazer execução paralela de dados atuais (Lyra, 2008).  Dentre as vantagens no uso da simulação paralela, destacam-se os custos relacionados com a preparação de massa de dados ou dados fictícios que tomam tempo nas técnicas anteriores, que são inexistes na simulação paralela. Além disso, os testes são mais detalhados e mais representativos, passando uma maior   40  segurança para o auditor. Como desvantagem, há a necessidade do auditor possuir uma habilidade específica para executar uma operação em paralela, atentando para prever o impacto negativo sobre operações, o que não é desejável (Carvalho, 2014).
+
+ANALISE DE DADOS: 

@@ -1,0 +1,31 @@
+Anotações componentes java: 
+
+title: titulo que vai aparecer no topo do frame
+password field: é um campo de senha onde os caracteres não ficam visiveis 
+
+Adicionar imagem no projeto: primeiro crio um pacote e coloco as imagens dentro dese pacote, ai no JFrame coloco um label, limpo o texto, vou em propiedades do JFramev, seleciono icon clico nos ... vai abriar atela de imagens do projeto, seleciono o pacote que as imagens estão, só dar um ok e fechar. Para conseguir colocar os icones em cima da imagem vou até o Navigattor, seleciono o Jframe (o padrão do projeto) bt direito >> setLayout >> absoluteLayout (não ta dando certo)
+
+link do vídeo: https://youtu.be/wS0pejrkusU?si=_dC06B9dphHgcIw0 
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+
+NO PG ADMIN
+
+
+	* Quando quero selecionar o tipo de dado que vai ter uma coluna, e ele será sequencial, coloco o campo Dat Type	(que esta dentro da aba colunas  - no exemplo esta sendp criado uma tabela), como serial, pois vai definir um tipo inteiro e vai ser inserio em sequência (1,2,3);
+	* Para campos de texto coloco como "character varying";	
+	* Para mostrar todas as linhas da tabela: dou um botão direito sobre a tabela, View/ Edit Data >> All Rows
+	* Executar um SQL dentro do Banco (criar um registro para a tabela, manualmente): bt Direito sobre o dataBase >> Query Toll. 
+	* SQL para inserir dados em uma tabela: insert into usuarios (usuario,senha) values ('lucasLeopolski','123'); >> esta inserindo na tabela usuarios e no campo usuario e senha um novo usuario e uma senha; 
+	* 

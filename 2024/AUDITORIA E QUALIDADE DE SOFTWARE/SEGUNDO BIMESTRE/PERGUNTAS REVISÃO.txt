@@ -1,0 +1,81 @@
+1) O Modelo de Qualidade de Software em "U" se caracteriza por:  
+R: Dividir-se em duas fases distintas: testes de verificação e testes de validação.
+
+2) Qual a principal diferença entre os testes de verificação e validação no Modelo de Qualidade de Software em "U"?
+Os testes de verificação focam na qualidade do processo de desenvolvimento, enquanto os testes de validação focam na qualidade do produto final.
+
+3) Qual das alternativas a seguir NÃO é um tópico abordado na Estatística da Garantia da Qualidade de Software?  
+Testes de Usabilidade: avaliação da facilidade de uso e aprendizado do software.
+
+
+4) A Estatística da Garantia da Qualidade de Software contribui para:  
+Identificar e prevenir problemas no processo de desenvolvimento, antes que afetem o produto final.
+
+
+5) Qual das alternativas a seguir NÃO é um benefício da aplicação do Seis Sigma na Engenharia de Software?  
+Diminuição da necessidade de testes e validação do software.
+
+
+6) Sobre Conceito de Confiabilidade de Software e sua Importância, responda:
+Qual das alternativas a seguir NÃO está relacionada à confiabilidade do software?  
+Velocidade de execução do software e resposta a comandos dos usuários.
+
+7) Qual a principal mudança que a criação da função de Garantia de Qualidade de Software proporcionou à indústria de software?    
+R: Formalização da gestão da qualidade do software.
+
+
+8)  Qual dos itens a seguir NÃO é um elemento de garantia da qualidade de software?
+Implementação de novas funcionalidades no software.
+
+
+9) Qual a principal dificuldade em estabelecer uma abordagem única para a Garantia da Qualidade de Software em diferentes projetos?  
+Variedade de requisitos e características específicas de cada produto de software.
+
+
+10) De acordo com o texto, qual a principal limitação das abordagens formais para a garantia de qualidade de software?
+Baixa adoção na prática comercial do desenvolvimento de software.
+
+
+11) Qual das métricas de código-fonte NÃO mede a coesão do código?
+Tamanho
+
+
+
+12) De acordo com o texto, quais são os três principais objetivos da análise de métricas de manutenção de software?
+Identificar áreas de melhoria nos processos de manutenção, tomar decisões informadas sobre alocação de recursos e monitorar o progresso ao longo do tempo.
+
+
+13) Qual das alternativas a seguir NÃO é um benefício da análise de métricas de manutenção de software?  
+Redução do tempo de desenvolvimento de software.
+
+
+14) O CMMI (Capability Maturity Model Integration) é um modelo de avaliação de maturidade de processos que visa auxiliar as organizações a melhorar seus processos de software, resultando em produtos de alta qualidade e maior satisfação do cliente. De acordo com o texto, quais são os principais níveis de maturidade do CMMI?  
+Inicial, Gerenciado, Definido, Gerenciado Quantitativamente e Otimizado.
+
+
+15) Quais são os principais benefícios da adoção do CMMI pelas organizações?
+Redução do tempo de desenvolvimento de software.
+Melhoria da qualidade do software e da eficiência dos processos de desenvolvimento.
+Aumento da produtividade da equipe e da satisfação dos clientes.
+Redução dos custos de manutenção de software.
+
+
+16) O MPS-BR (Melhoria de Processo do Software Brasileiro) foi criado com o objetivo de:
+Atender às necessidades específicas das empresas brasileiras de software, oferecendo uma alternativa acessível e adaptada à realidade do mercado nacional.
+
+
+17) De acordo com o MPS-BR, quais características definem um processo no Nível D - Largamente Definido?
+Processos são documentados e controlados, com métricas para acompanhamento.
+
+
+18) Com base no cenário descrito, quais são os principais desafios que a empresa pode enfrentar ao implementar o MPS-BR?
+Falta de conhecimento sobre o modelo e seus benefícios por parte da equipe.
+Resistência à mudança por parte dos colaboradores, acostumados com os processos informais.
+Dificuldade em integrar o MPS-BR aos processos existentes, que são complexos e interligados.
+Alto custo de implementação e treinamento, inviável para uma empresa de médio porte.
+
+
+ 
+
+
+

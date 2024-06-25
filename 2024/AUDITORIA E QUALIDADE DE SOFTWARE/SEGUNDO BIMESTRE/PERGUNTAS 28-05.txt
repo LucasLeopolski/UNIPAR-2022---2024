@@ -1,0 +1,128 @@
+1) O MPS.BR, um modelo de melhoria de processos de software, foi desenvolvido especificamente para atender às necessidades de:
+
+R: Organizações brasileiras de software de diversos portes.
+
+
+
+2) Entre os processos abordados no Nível G – Parcialmente Gerenciado do MPS.BR, destacam-se:
+
+R: Gerência de Requisitos e Gerência de Projetos.
+
+
+
+3) O propósito do processo de Integração do Produto (ITP) no Nível D – Largamente Definido é:
+
+R: Compor os componentes do produto, assegurando a compatibilidade com os requisitos.
+
+
+4) No contexto do MPS.BR, a Gerência de Decisões (GDE) tem como um de seus principais resultados esperados:
+
+R: Estabelecer critérios para avaliação de alternativas e selecionar métodos de avaliação.
+
+
+
+5) A definição do escopo da Gerência de Riscos (GRI) no Nível C – Definido do MPS.BR é essencial para:
+
+R: Determinar as origens e categorias de riscos, além dos parâmetros para análise.
+
+
+
+6) A implementação dos processos no Nível B – Gerenciado Quantitativamente deve satisfazer os atributos de processo AP 1.1, AP 2.1, AP 2.2, AP 3.1 e AP 3.2 e alguns resultados do AP 4.1. Isso significa que:
+
+R: Os processos são gerenciados quantitativamente e estão alinhados com os objetivos de desempenho organizacionais.
+
+
+
+7) O propósito do processo de Verificação (VER) no Nível D – Largamente Definido do MPS.BR é:
+
+R: Confirmar que cada serviço e/ou produto de trabalho atende aos requisitos especificados.
+
+
+
+8) A análise de alternativas de solução e seleção de métodos de avaliação no processo de Gerência de Decisões (GDE) é fundamental para:
+
+R: Garantir que as decisões críticas sejam tomadas de forma objetiva e baseada em critérios estabelecidos.
+
+
+
+9) No Nível A – Em Otimização do MPS.BR, a implementação dos processos deve satisfazer integralmente os atributos de processo AP 5.1 e AP 5.2. Isso implica que:
+
+R: Os processos são otimizados continuamente através de melhorias incrementais e inovações tecnológicas.
+
+
+
+10) Uma das expectativas do processo de Desenvolvimento de Requisitos (DRE) no Nível D – Largamente Definido é que:
+
+R: As interfaces internas e externas do produto e de cada componente sejam definidas.
+
+
+11) O que é o Capability Maturity Model (CMM)?
+
+R: Um modelo de maturidade para processos de software.
+
+
+12) Qual foi o principal objetivo da criação do CMM?
+
+R: Melhorar os processos de desenvolvimento de software.
+
+
+13) Quantos níveis de maturidade possui o CMM?
+
+R: Cinco
+
+
+14) Qual é o foco principal do Nível 2 do CMM?
+
+R: Planejamento e controle de projetos
+
+
+15) Qual modelo foi especificamente desenvolvido para atender às necessidades das empresas brasileiras de software?
+
+R: MPS-BR
+
+
+16) Qual das seguintes áreas é uma KPA do Nível 3 do CMM?
+
+R: Garantia de Qualidade de Software
+
+
+
+17) Qual das seguintes áreas não é um modelo do CMMI?
+
+R: CMMI for Human Resources (CMMI-HR)
+
+
+18) Explique como a adoção de modelos de maturidade como CMMI e MPS-BR pode impactar a competitividade das empresas de software no mercado global. Compare e contraste os dois modelos, discutindo suas principais vantagens e desvantagens, e como cada modelo pode ser mais adequado para diferentes tipos de organizações e contextos.
+
+R: Os modelos de maturidade como CMMI e MPS-BR podem impulsionar a competitividade das empresas de software globalmente. O CMMI oferece reconhecimento internacional e flexibilidade, mas pode ser complexo e caro. Enquanto isso, o MPS-BR é mais acessível e focado no mercado brasileiro, embora tenha menos reconhecimento internacional e flexibilidade. A escolha entre os modelos depende das necessidades, recursos e contexto da organização.
+
+
+
+
+19)
+
+A) Uma empresa de desenvolvimento de software, que atua no mercado há alguns anos, decidiu implementar o Modelo de Melhoria de Processo do Software Brasileiro (MPS). A empresa enfrentou desafios significativos em relação à qualidade dos produtos, prazos de entrega e satisfação do cliente. A direção da empresa reconheceu a necessidade de uma abordagem estruturada para melhorar seus processos e alcançar níveis mais altos de maturidade.
+
+Cenário:  
+
+A empresa tem uma equipe de desenvolvimento de software composta por engenheiros, designers e testadores. Eles trabalham em diversos projetos para clientes de diferentes setores, incluindo finanças, saúde e educação. A empresa deseja melhorar sua eficiência operacional, reduzir retrabalhos e garantir a entrega de produtos de alta qualidade que atendam às expectativas dos clientes.  
+Por que a empresa decidiu implementar o MPS?
+Analise os principais problemas enfrentados pela empresa que podem ter motivado a decisão de implementar o MPS. Considere como a empresa espera se beneficiar com a implementação do MPS em termos de qualidade, produtividade e competitividade no mercado.
+
+
+R: A empresa de desenvolvimento de software enfrentava problemas como baixa qualidade dos produtos, prazos de entrega não cumpridos e insatisfação do cliente, motivando a implementação do Modelo de Melhoria de Processo do Software Brasileiro (MPS). Com a implementação do MPS, a empresa espera melhorar a qualidade dos produtos, aumentar a produtividade, satisfazer os clientes e aumentar sua competitividade no mercado.
+
+R:(professor:)
+
+A empresa decidiu implementar o MPS para lidar com problemas significativos em relação à qualidade dos produtos, prazos de entrega e satisfação do cliente. O MPS oferece uma abordagem estruturada para melhorar os processos, o que pode resultar em produtos de melhor qualidade, maior eficiência operacional e maior competitividade no mercado.
+
+
+B) Quais são os principais desafios esperados durante a implantação do MPS?
+Identifique os desafios que a empresa pode enfrentar ao implementar o MPS, como resistência à mudança, falta de recursos, treinamento da equipe, entre outros. Discuta estratégias para superar esses desafios e garantir uma transição suave para os novos processos.
+
+
+R: Durante a implantação do MPS, a empresa pode enfrentar desafios como resistência à mudança, falta de recursos e treinamento da equipe. Estratégias como comunicação transparente, investimento em treinamento, envolvimento da equipe, pilotagem gradual e monitoramento contínuo podem ajudar a superar esses desafios e garantir uma transição suave para os novos processos.
+
+R (Professor:) 
+Os principais desafios esperados durante a implantação do MPS podem incluir resistência à mudança por parte da equipe, falta de recursos financeiros e de pessoal dedicado, complexidade na adaptação dos processos existentes e garantia de adesão contínua aos novos procedimentos.
+
