@@ -1,0 +1,197 @@
+JPA Hibernate
+
+	* Hibernate complementa a aplicação da API; 
+	* OPERAÇÕES DO CRUDE:  Create, Delete, Leitura e Update 
+
+
+* SOAP 11/03/2024
+
+	* JAVA WEB SERVICE - SOAP: é o acrônimo de Simple Object Access Protoc
+
+	* Só o governo usa SOAP
+	* SOAP é uma especificação para a troca de informação entre sistemas, ou seja, uma especificação de formato de dados para envio de estruturas entre serviços, estabelecendi um padrão marcado oficial padrão
+
+
+---------------------------
+
+25/03 REST 
+
+	* Representationacl State Transfer, autor Roy Fielding (autor do protocolo HTTP) (defende a utilização do HTTP puro como web Service) 
+	* Utilizado para comunicação entre sitemas; 
+
+	RESTFul - é a alicação 
+	REST - é o protocolo
+
+	* Sempre vai ter um identificador unico (URI ou URL)(URI é oacesso único ) (URL é o location - é o caminho para os métodos)
+
+	STATEFUL - armazenas dados da sua seção (ex carrinho:quando fecha a aplicação e entra novamente os itens estão no seu carrinho ainda)
+
+	STATLAS - não armazenas dados da sua seção (ex carrinho:quando fecha a aplicação e entra novamente os itens não estão mais no seu carrinho)
+
+-----
+
+Resumo do PDF sobre Web Services:
+
+	* Web Services são sistemas de software que permitem a comunicação entre máquinas em uma rede, utilizando XML para troca de mensagens.
+	* Eles facilitam a integração entre diferentes sistemas e plataformas, sendo independentes de linguagem de programação.
+	* A arquitetura dos Web Services é organizada em camadas lógicas, com uma camada de comunicação que expõe operações como serviço.
+	* Os benefícios dos Web Services incluem a interoperabilidade em ambientes heterogêneos, melhor gerenciamento da cadeia de suprimentos e suporte a diferentes dispositivos.
+	* SOAP (Simple Object Access Protocol) e REST (Representational State Transfer) são dois estilos arquiteturais comuns para implementar Web Services:
+
+	* SOAP é um protocolo baseado em XML que define como mensagens são trocadas entre aplicações. É mais rígido e formal, sendo amplamente utilizado em ambientes corporativos.
+ 	* REST é um estilo arquitetural mais simples e flexível, que utiliza os métodos HTTP para acessar e manipular recursos. É mais leve e adequado para aplicações web mais simples e escaláveis.
+
+
+	* SOAP:
+
+		* SOAP é um protocolo baseado em XML que define como mensagens são trocadas entre aplicações.
+		* É mais rígido e formal, permitindo a definição de regras detalhadas para a comunicação entre sistemas.
+		* Utiliza envelopes XML para estruturar as mensagens e define padrões para garantir a segurança e confiabilidade na troca de dados.
+		* É amplamente utilizado em ambientes corporativos devido à sua robustez e suporte a funcionalidades avançadas, como transações e segurança.
+	* REST:
+
+		* REST é um estilo arquitetural mais simples e flexível, baseado nos princípios da web.
+		* Utiliza os métodos HTTP (GET, POST, PUT, DELETE) para acessar e manipular recursos de forma stateless, ou seja, sem armazenar o estado da sessão do cliente no servidor.
+		* mais leve e adequado para aplicações web mais simples e escaláveis, favorecendo a simplicidade, desempenho e facilidade de uso.
+		* Permite uma integração mais direta com a web, facilitando a construção de APIs e serviços web que seguem os padrões da internet.
+		* Em resumo, SOAP é mais estruturado e robusto, adequado para ambientes corporativos complexos, enquanto REST é mais simples e flexível, ideal para aplicações web mais leves e escaláveis.
+ 		* A escolha entre SOAP e REST depende das necessidades específicas do projeto e do contexto de implementação.
+
+
+
+
+me explique este código 
+@Path("/livro")
+public class LivroController {}
+
+	Esse código define uma classe chamada LivroController que está anotada com @Path("/livro"). A anotação @Path é usada em JAX-RS (Java API for RESTful Web Services) para mapear a classe ou método para uma rota específica em uma aplicação web. Neste caso, a classe LivroController é mapeada para a rota "/livro", o que significa que qualquer solicitação HTTP feita para essa rota será manipulada pelos métodos dentro dessa classe.
+
+Dentro da classe LivroController, é provável que existam métodos anotados com outras anotações JAX-RS, como @GET, @POST, @PUT, @DELETE, que indicam como lidar com diferentes tipos de solicitações HTTP (GET, POST, PUT, DELETE) na rota "/livro".
+
+Resumindo, esse código define um controlador de classe para lidar com solicitações relacionadas a livros em uma aplicação web, usando JAX-RS para mapear a rota "/livro".
+
+
+
+
+
+Preciso desenvolver um trabalho que é um controle de uma bilioteca, é desenvolvido em java utilizando IntelliJ.  O projeto tem três classes, livro usuario e estante, os atributos de cada uma são: Livro: id, titulo, autor, arquivo_pdf, classificação_etaria e fk_estante_id. Usuario: id, nome, idade. Estante: id, descricap, estou_lendo, fk_Usuario_id. As regras de negócio são: Tabelas Livro e Usuario devem ter o CRUD completo; Cada Usuario pode ter mis de uma estantes; Os livros na estante podem estar marcados com "Estou Lendo"; Os livros na estante podem ser adicionados e removidos quantas vezes o usário quiser; Caso o usuário seja menor de 18, não pode acessar os livros 18+;Os arquivos .pdf devem ser importados de arquivos .pdf reais. Além disso preciso fazer a conexão com o pgadmin4 . Deve se utilizar Controller, Service, Dao e model . Também preciso adcionar as informações no banco de dados através do postmans, como devo fazer tudo isso? 
+	
+
+
+CORREÇÃO PROVA 
+
+1) No Hibernate uma entity bean deve ter uma chave primaria que é indicada pela anotação: @id 
+2) Considere a classe PersistenceDao.java abaixo de uma aplicação java que utiliza JPA 2.0 em condições ideais, o parâmetro "sistema" passado para o metodo createEntityMangerFactory refere-se ao nome:( D ) DO DRIVER JDBC QUE FAZ 	A INTERFACE ENTRE A APLICAÇÃO JAVA E O SISTEMA GERENCIADOR DE BANCO DE DADOS (SGBD). 
+
+	import javax.persistence.*; 
+	private EntityMangerFactory conn;
+	private EntityManager manager;
+
+	public void factory(){
+		conn = Persistence.createntityManagerFactory("sistema");
+		manager = conn.createEntityManager();
+
+	}
+3) O  JPA é uma camada que descreve uma interface comum para frameworks ORM como o HIBERNATE. (B)
+
+4)  	É certo afirmar que web Services tem como função transferir dados por meio de protocolos de comunicação para diferentes plataformas, mesmo que elas tenham sido desenvolvidas em linguagens diferentes.
+	É certo afirmar que Web Services conseguem reutilizar sistemas já operativos em uma organização e adicionar-lhes outras funcionalidades sem a necessidade de criar um sistema novo. Por essa razão, é possivel incrementar 		os sistemas já desenvolvidos, agregando mais dados e novas  funcionalidades de modo prático, rápido e simples.
+	É certo afirmar que os protocolos de comunicação que permitem a interação entre as linguagens do web service e osistema que faz o pedido ao web service são o soap e o rest (todas corretas) 
+
+5) API do tipo SOAP utilizam protocolo com estrutura de mensagem restrita que INDEPENDE de XML (errado) 
+
+6) Oformato utilizado para a representação dos dados nas mensagens SIMPLE OBJECT ACCESS PROTOCOL (SOAP) é o: (B) XML 
+
+7) Web Service é um modelo de computação distribuída que depende dos sistemas operacionaus, porém independe da linguagem de desenvolvimento e hardware onde os sistemas integrados são processos: (B) errado
+
+8) Através do Web Service é possível consumir dados e integrare sistemas na WEB =. Web Services podem ser acessados a partir de protocolos padrões da WEB, um deles é oi REST, um estilo de arquitetura que dfefine o conjunto sde 	restrições e propiedades baseadas no protocolo HTTP. Baseado no protocolo HTTP que possui diversos métodos marque a opção que corresponde ao método para criar um novo recurso: (C) POST 
+
+9) Melhor definição de um WSDL: (C) Recurso que contém um conjunto de definições descrevem os Webservices.
+
+10) Julgue os itens a seguir: 
+	Uma API define regras que necssitam ser seguidas para se comunicar com outros de software, podendo ser utilizada para compartilhar recursos e fornecer serviçõs da WEB. 
+	Na REST a ausência de estado refere-se ao método de comunicação, no qual o servidor completa cada solicitação do cliente, independentemente de todas as solicitações anteriores.
+	Em uma API RESTful o envio da mesma solicitação PUT várias vezes em um serviço da WEB RESTful é equivalente a um único resultado (tudo certo). 
+
+
+11) Com base na classe publidher (Main) a seguir, crie a classe concreta da interface Livro (também abaixo). Considere que já temos as Classes Livro e de persistêncoia corretamente implementadas. 
+
+	public class Main{
+		public static void main(String[] args){
+		// Publica o serviço SOAP na URL especificada
+		String url = "http://localhost:8080/livros"; 
+		Endpoint.publish(url, new LivroSIB());
+
+		// Exibe a URL do serviço publicado 
+	
+		System.out.println("Serviço livraria publicado em: " +url);
+		}
+		}
+
+	@WebService
+	@public interface LivroSEI{
+
+		@WebMethod
+		String boasVindas(@WebParam(name = "nome") String nome);
+
+		@WebMethod
+		Livro consultaLivroPorTitulo(@WebParam(name = "titulo") String titulo);
+
+	}
+
+
+
+
+
+---------------------
+
+
+PROVA 
+
+Spring é um farmwork para desenvolvimento de aplicações em java, criado em meados de 2002 por Rod Johnson, se tornou bastantes popular e adotado ao redor do mundo devido a sua simplicidade e facilidade de integração com outras tecnologias. 
+
+Framwork de código aberto que vai ajudar fazer aplicações mais 
+
+palavra chave: módulo
+
+para consulta mais complexas preciso informa o JPARepository 
+
+
+Quem injeta as dependências é o Spring. 
+Single Responsability - responsavél por apenas uma função 
+
+@Component - anotações de classe básica para criar qualquer tipo de bean. 
+@Repository - definições de acesso ao Banco de dados 
+@Service - vai acontecer qualquer regra de negócio que vai acontecer no sistema (ex: validação usuário) 
+@RestController - tras todas as caracterisisticas do Json - Usado para definir classes do tipo de controller
+
+Anotações do controler 
+@PathVariable -vai extrair uma variavel do PATH 
+@RequestParam - utilizado para 
+
+
+CRUD 
+@GETMAPPING
+@POSTMAPPING
+@PUTMAPPING
+@DELETEMAPPING
+
+
+Spring Initializr  - site para consulta  
+
+CSS tem que estar na pasta static
+HTML na pasta templates
+
+
+@Getter - @Seter: são anotações do Lombook 
+
+
+@ManyToOne - muitos para 1 
+
+
+Slides no class 
+
+Teoria vai cair Spring 
+
+Swagger 
+Bibliotecas 
