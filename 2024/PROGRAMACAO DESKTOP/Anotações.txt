@@ -1,0 +1,61 @@
+* Arquivo pom.xml
+	+É onde colaca as importações das dependências do projeto; 
+	
+* Classe public static void main: 
+	+ todo arquivo java precisa de um arquivo que de start nele, tudo que esta aqui nesse método é 	   carregado quando do inicio ao projeto;
+	+ Todo projeto precisa ter o método main (APENAS UM METODO MAIN); 
+
+* JFramForm:
+	+ É o arquivo de layout; 	
+	+ Os conteiners que aparecem são do SwingUI;
+	+ Ele cria automaticamente com o método main (tem que tirar); 
+	+ Botão Source vai exibir o código; 
+	+ Recorto a linha: new FrameHelloWorld().setVisible(true);
+	+ Colo na classe Main; 
+	+ Apago o método main da JFrame;
+	+ Botão Design volta para a tela (visualização); 
+	+ Botão direito em cima do jLabel que foi adcionado devo alterar o nome 	  da variavel, clico em Change Variable Name e coloco o nome que desejar 	  na variavel;
+	+ Para dar ação ao botão: Clico com o botão direito em cima do botão, 	  clico em events >> Action >> actionPerformed;
+-----------------------------------------------------------------------------------------------
+
+Dia 06/23/2024
+
+* BigDecimal (usado para valores com ponto flutuante) 
+	* É melhor de usar que o double e o float, pois esses dois tipos de dados arredondam para mais ou para menos. BigDecimal é mais recomendado pois é mais preciso.
+	* Forma de declarar: BigDecimal Media = new BigDecimal("1.0"); // vai ser declarado a quantidade de casas decimais dentroo de uma string. 
+
+	* SOMAR = ADD()
+	* SUBTRAIR = subtract()
+	* DIVIDIR = divide()
+	* MULTIPLICAR = multiplay()
+	* POTENCIAÇÃO = pow();
+	* COMPARAÇÃO = compareto();
+	* MAIOR = max();
+	* MENOR = min();
+
+* REPLACE: 
+
+	* Usado parasubstituir um valor ex: variavel.Replace("," , ".") ; // vai substituir todas as virgulas por ponto;
+
+
+* SETSCALE 
+	
+	* Usado para arredondar os números depois da virgula;
+	* ROUND_CEILING - arredonda a ultima casa decimal para cima;
+	* ROUND_DOWN - arredonda para zero;
+	* ROUND_FLOOR - arrdonda para baixo;
+	* ROUND_HALF_UP - arredonda para cima se o num após a virgula for > 5
+	* ROUND_HALF_DOWN - arredonda para baixo se o num após a virgula for < 5
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
