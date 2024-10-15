@@ -1,0 +1,46 @@
+1) No desenvolvimentro de aplicações WEB, considerando a interface de 
+
+HTML é alinguagem utilizada para definir os elementos estruturais da interface, enquanto css é responsavel pela parte visual 
+
+2) Websocket é uma técnologia 
+
+(certo) 
+
+3) O Golden Hammer é um conhecido anti padrão de desenvolvimento de software. Explique como esse anti-padrão pode impactar o ciclo de vida de um software, cite exemplos e discorra como o desenvolvedor pode evitar essa prática: 
+
+É utilizar a mesma ferrmanta "linguagem" para resolver todos os problemas. 
+
+4) Com relação aos design patterns, anti-patterns e arquiteturas de software, analise a opção correta: 
+
+A evolução de um sistema de software torna-se mais flexivel quando se opta por uma arquitetura que utiliza designs patterns
+
+5) UM analista de Sistemas, em função de extrema tensão causada 
+
+Incorreu em uma solução anti pattern conhecida como God 
+
+6) Analise as afirmativas abaixo sobre padrões de projeto e de valores (V ou F) 
+
+A) Tudo verdadeiro (V V V) 
+
+7) Conforme o código de backende 
+
+stompClient.subscribe('/topic/sockek-prices', function(stocks)
+
+8) O estilo de arquitetura de software que define um confunto de restrições para a criação de serviçoes web
+
+REST
+
+9) Discorra sobre is benefícios e desvantagens do uso de frameworks CSS no desenvolvimento de aplicação web. Mencione pelo menos dois exemplos de frameworks populares e explique como eles podem facilitar a criação de layouts responsívos e a implementação de compónetes de interface. Além disso, aborde potenciais limitações como personalização e dependência de estilos predefinidos. 
+
+
+10) A respeito da arquitetura cliente - servidor é incorreto afirmar que: 
+
+Garante tolerância e zero falhas. 
+
+11) A arquitetura deum sistema  
+
+MVC (Model View Controller) 
+
+12) Assinale a alternativa coirreta 
+
+Padões de projeto descrevem objetos e classes que se relacionam para resolver um problema de projetp genérico em um contexto particular 

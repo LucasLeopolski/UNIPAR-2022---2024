@@ -1,0 +1,15 @@
+body {  
+    background-color: #f8f9fa;  
+}
+#historico-habitos-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #historico-habitos-btn:hover {
+    background-color: #3e8e41;
+  }

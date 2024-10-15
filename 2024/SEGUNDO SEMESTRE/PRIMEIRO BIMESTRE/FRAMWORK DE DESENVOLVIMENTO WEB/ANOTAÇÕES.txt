@@ -1,0 +1,31 @@
+Dia 12/08 
+
+PADRÕES:  São receitas, boas práticas de programação, que se torna algo mais fácil de manter e de se dar manutenção, são modelos de códigos reutilizaveis. 
+
+	Padrões Criacionais: 
+		PROPÓSITO:  Enfocar no processo de criação de objetos, abstriaindo e ocultando a lógica de criação. 
+		SINGLETON: Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela.
+		FACTORY METHODY: Define uma interface para criar objetos, mas permite que as subclasses alterem o tipo de objeto que será criado. 
+
+	Padrões Estruturais: 
+		PROPÓSITO: Facilitar o design de classes e objetos através da composição, agregação e simplificação dsa relações entre objetos.
+		ADAPTER: Permite que classes com interfaces incompatíveis trabalhem juntas.
+		COMPOSITE: Compõe objetos em estruturas de árvore para representar hierarquias parte/todo. 
+		
+	Padrões Comportamentais:
+		PROPÓSITO: Se concentram em algorítmos e na atribuição de responsabilidade entre objetos.
+		OBSERVER: Define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus dependentes são notificados.
+		STRATEGY: Define uma família de algorítmos encapsula cada um deles e os torna intercambiáveis. 
+
+	ANTI PADRÕES: São práticas de design ou implementação que parecem boas ideias inicialmente, mas que acabam por ser prejudiciais ou contraproducentas a longo prazo. Identificar e evitar anti-padrões é crucial para o desenvolvimento de software de qualidade. 
+
+	
+	ARQUITETURA WEB: 
+		* A arquitetura 
+
+
+	FLUXO: 
+		* O cliente faz uma solicitação ao servidor;
+
+
+	ARQUITETURA MVC:  

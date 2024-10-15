@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Login - Task & Tracker</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <h1 class="mt-5">Login</h1>  
+        <form id="loginForm">  
+            <div class="form-group">  
+                <label for="email">Email</label>  
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>  
+            </div>  
+            <div class="form-group">  
+                <label for="senha">Senha</label>  
+                <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>  
+            </div>  
+            <button type="submit" class="btn btn-primary">Entrar</button>  
+        </form>  
+
+        <h2 class="mt-4">Não tem uma conta? Cadastre-se</h2>  
+        <form id="userForm" style="display:none;">  
+            <div class="form-group">  
+                <label for="nome">Nome</label>  
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>  
+            </div>  
+            <div class="form-group">  
+                <label for="emailReg">Email</label>  
+                <input type="email" class="form-control" id="emailReg" placeholder="Digite seu email" required>  
+            </div>  
+            <div class="form-group">  
+                <label for="senhaReg">Senha</label>  
+                <input type="password" class="form-control" id="senhaReg" placeholder="Digite sua senha" required>  
+            </div>  
+            <button type="submit" class="btn btn-primary">Cadastrar</button>  
+        </form>  
+
+        <button id="showRegister" class="btn btn-link">Criar conta</button>  
+        <button id="showLogin" class="btn btn-link" style="display:none;">Voltar ao login</button>  
+    </div>  
+
+    <script src="script.js"></script>  
+</body>  
+</html>

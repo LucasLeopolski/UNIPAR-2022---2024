@@ -1,0 +1,17 @@
+prova: 
+
+o que é um design padrão criacional, estrutural e comportamental 
+anti-padroes
+
+arquitetura web (o que é responsabilidade do dev e o que é responsabilidade do cliente) V F 
+
+
+arquitetura MVC
+
+REST e RESTFUL
+
+WEBSOCKETS 
+
+
+cód websocketbackand e front  e timelif 
+
