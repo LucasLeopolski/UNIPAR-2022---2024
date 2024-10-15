@@ -1,0 +1,58 @@
+1. O que é teste de software?
+
+Um conjunto de atividades que visa verificar e validar se o software funciona conforme o esperado, identificando erros ou comportamentos indesejados.
+
+
+2. Quais os objetivos do teste de software?
+
+Garantir que o software funcione como esperado, e atenda aos requisitos definidos.
+Corrigindo possíveis defeitos falhas ou comportamentos indesejados.
+Garantir qualidade.
+
+
+3. Sobre a repetibilidade em testes de software.
+
+Testes bem definidos podem ser repetidos várias vezes com resultados consistentes.
+
+
+
+4. Por que a documentação é fundamental nos testes de software?  
+
+Para rastreamento, auditoria e comunicação eficaz entre a equipe de desenvolvimento e os testadores.
+
+
+
+5. Quais são as limitações no teste de software?
+
+Falsos positivos e negativos.
+Dependencia de dados.
+Dependência de ambiente.
+Mudanças no software.
+
+
+6. Qual das alternativas abaixo descreve corretamente o teste unitário?
+
+Um teste que verifica o comportamento de uma unidade específica do código, como uma função ou método, isoladamente.
+
+
+7.  Qual das alternativas abaixo descreve corretamente o teste de integração?
+
+Um teste que avalia como diferentes módulos ou componentes do software interagem entre si.
+
+
+
+8.  Qual das alternativas abaixo representa uma etapa fundamental do processo de teste de software?
+
+O planejamento, que inclui a definição da estratégia, escopo e recursos necessários para os testes.
+
+
+
+9. Qual das alternativas abaixo descreve corretamente o que o seguinte código em JUnit faz?  
+
+O código testa se a soma de 2 e 3 na classe Calculator retorna 5, usando uma asserção.
+
+
+
+10. Interprete o código a seguir
+
+O código verifica se a classe UserService consegue realizar operações básicas de CRUD (Criar, Ler, Atualizar e Excluir) em usuários.
