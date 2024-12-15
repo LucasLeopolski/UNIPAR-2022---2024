@@ -1,0 +1,43 @@
+Descreva cada tipo de teste, e qual a sua importância, e porque devem ser utilizados nos TESTES DE SOFTWAR: 
+
+Teste Funcional (Caixa-Preta):
+
+Descrição: Esse teste se concentra em verificar se a aplicação está funcionando de acordo com os requisitos especificados, sem se preocupar com a estrutura interna do software.
+Importância: Avalia se o sistema atende às necessidades e expectativas do usuário final, garantindo que as funcionalidades estejam operando corretamente.
+
+
+Teste Estrutural (Caixa-Branca):
+
+Descrição: Esse teste examina a estrutura interna do software, focando em como o código foi implementado.
+Importância: Ajuda a identificar erros de lógica, otimizar o desempenho e garantir a qualidade do código-fonte.
+
+
+
+Teste de Regressão:
+
+Descrição: Esse teste verifica se as alterações realizadas em uma aplicação não afetaram o funcionamento de outras partes do software.
+Importância: Assegura que novas funcionalidades não introduzam novos problemas em partes já testadas e aprovadas do sistema.
+
+
+Teste de Carga:
+
+Descrição: Esse teste avalia o comportamento do software sob condições de carga, como alto tráfego de usuários ou grande volume de dados.
+Importância: Identifica gargalos de desempenho e verifica a capacidade da aplicação de lidar com situações de sobrecarga.
+
+
+Teste de Estresse:
+
+Descrição: Esse teste submete o software a condições extremas, como picos de carga ou uso intensivo de recursos, com o objetivo de avaliar sua robustez.
+Importância: Ajuda a descobrir pontos fracos no software e medir sua capacidade de lidar com situações de estresse.
+
+
+Teste de Usabilidade:
+
+Descrição: Esse teste avalia a facilidade de uso e a experiência do usuário com a aplicação.
+Importância: Identifica problemas de interface, navegação e interação, permitindo melhorar a experiência do usuário.
+
+
+Teste de Segurança:
+
+Descrição: Esse teste verifica se o software está protegido contra ameaças e vulnerabilidades, como ataques cibernéticos.
+Importância: Assegura que a aplicação esteja protegida contra acesso não autorizado, vazamento de dados e outros riscos de segurança.
